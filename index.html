@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Project: slider on JS</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="projects">
+        <div class="projects__description">
+          <div class="projects__description-title">
+            <h2>Completed <br />projects</h2>
+            <img src="./img/line.svg" alt="line" style="padding-bottom: 10px" />
+          </div>
+          <p class="projects__description-text">
+            Only a small part of the work performed by our company is
+            presented<br />
+            on the site. For 14 years on in the construction<br />
+            market we have made happy more than 1000 families
+          </p>
+          <div class="projects__description-info">
+            <div class="projects__description-info-city">
+              <h2 class="cards__title">City:</h2>
+            </div>
+            <div class="projects__description-info-area">
+              <h2 class="cards__title">Apartment area:</h2>
+            </div>
+            <div class="projects__description-info-time">
+              <h2 class="cards__title">Repair time:</h2>
+            </div>
+            <div class="projects__description-info-repair">
+              <h2 class="cards__title">Repair Cost:</h2>
+              <p class="cards__active">Upon request</p>
+            </div>
+          </div>
+
+          <div class="projects__nav">
+            <div class="projects__nav-arrow left">
+              <img src="./img/arrow_left.svg" alt="arrow left" />
+            </div>
+            <div class="projects__nav-dots"></div>
+            <div class="projects__nav-arrow right">
+              <img src="./img/arrow_right.svg" alt="arrow right" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slider">
+        <div class="slider__wrapper">
+          <div class="slider__titles"></div>
+          <div class="slider__images"></div>
+        </div>
+      </section>
+    </div>
+    
+    <footer class="footer">
+      <div class="footer__content">
+        <p class="footer__text">Сделано в рамках практического задания</p>
+        <div class="footer__copyright">
+          <img src="./Logo/AS.jpg.jpg" alt="Логотип AS" class="footer__logo">
+          <span class="footer__text">Aleksandr Seliverstov © 2025</span>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
