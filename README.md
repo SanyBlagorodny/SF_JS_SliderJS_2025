@@ -1,7 +1,7 @@
 # SF_JS_SliderJS_2025
 
-Live
-Открыть сайт: https://sanyblagorodny.github.io/SF_JS_SliderJS_2025/
+## Live
+Открыть сайт: [https://sanyblagorodny.github.io/SF_JS_SliderJS_2025/](https://sanyblagorodny.github.io/SF_JS_SliderJS_2025/)
 
 ## Проект по JavaScript - Слайдер на JS  
 
